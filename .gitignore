@@ -1,0 +1,120 @@
+# ---------- OS / 에디터 ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.history/
+
+# ---------- 파이썬 / 빌드 산출물 ----------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.spec
+.build/
+build/
+dist/
+*.egg
+*.egg-info/
+.eggs/
+.pytype/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+coverage.xml
+
+# ---------- 가상환경 ----------
+.venv/
+venv/
+env/
+ENV/
+.mamba/
+.conda/
+pip-wheel-metadata/
+
+# ---------- 주피터 ----------
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# ---------- 로그 / 러닝 아티팩트 ----------
+logs/
+log/
+runs/
+wandb/
+lightning_logs/
+tensorboard/
+events.out.tfevents*
+mlruns/
+ray_results/
+outputs/
+results/
+result/
+Experiments/
+checkpoints/
+tmp/
+temp/
+*.log
+
+# ---------- 데이터 / 다운로드 ----------
+data/
+datasets/
+dataset/
+download/
+downloads/
+raw/
+processed/
+assets/
+sample_music/
+sample_data/
+pretrained_models/
+weights/
+models/            # (모델 소스코드 폴더면 빼세요)
+
+# ---------- 대용량 파일(확장자) ----------
+*.wav
+*.flac
+*.mp3
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.npz
+*.npy
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ---------- 캐시 ----------
+.cache/
+.cache/**/*
+~$*
+*~
+*.tmp
+*.temp
+
+# ---------- 환경 변수/키 ----------
+.env
+.env.*
+*.secret
+*.pem
+*.key
+
+# ---------- 프로젝트 특화(원문에서 주신 것 포함) ----------
+speechbrain/
+pretrained_models/
+assets/
+result/
+Experiments/
+
+# ---------- 선택(필요 시 제외 해제) ----------
+# figures/         # 논문용 그림 산출물은 종종 추적함
+# reports/         # 보고서/논문 빌드 산출물 폴더
+# scripts/local/   # 개인용 스크립트
