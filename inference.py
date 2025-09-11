@@ -187,10 +187,8 @@ def main():
         est = ensure_2d_channels_first(ests_speech[i])
         est_org = ensure_2d_channels_first(ests_speech_original[i])
         out_path = base_dir / f"spk{i+1}.wav"
-        out_path_org = base_dir / f"spk{i+1}_original.wav"
         print(f"[Save] {out_path}")
         torchaudio.save(str(out_path), est, sr)
-        torchaudio.save(str(out_path_org), est_org, sr)
 
     # Save mixture, too
     mix_out = base_dir / "mixture.wav"
