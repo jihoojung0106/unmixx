@@ -67,14 +67,14 @@ downloads/
 raw/
 processed/
 assets/
-sample_music/
+
 sample_data/
 pretrained_models/
 weights/
 models/            # (모델 소스코드 폴더면 빼세요)
 
 # ---------- 대용량 파일(확장자) ----------
-*.wav
+
 *.flac
 *.mp3
 *.mp4
