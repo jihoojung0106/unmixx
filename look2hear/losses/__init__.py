@@ -16,14 +16,6 @@ from .matrix import PairwiseNegSDR
 from .matrix import SingleSrcNegSDR
 from .sisnri import SISNRi
 from .stft_loss import STFTLoss
-from .speaker_loss import SpeakerEmbeddingLoss,SimpleSpeakerEmbeddingLoss
-from .modified_multi_spectral import (
-    SingleSrcMultiScaleSpectral_modified,
-    SingleSrcMultiScaleSpectral_TRUnet,
-    SingleSrcMultiScaleSpectral_L1,
-    SingleSrcMultiScaleSpectral_L1_above_freq,
-    SingleSrcMultiScaleSpectral_TRUNet_freq,
-)
 from .pseq import batch_pesq
 __all__ = [
     "SISNRi",

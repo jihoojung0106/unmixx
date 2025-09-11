@@ -42,7 +42,7 @@ else:
 parser = argparse.ArgumentParser()
 parser.add_argument(
     "--conf_dir",
-    default="configs/pitch1.yml",
+    default="configs/unmixx.yml",
     help="Full path to save best validation model",
 )
 def set_seed(seed: int = 42) -> None:

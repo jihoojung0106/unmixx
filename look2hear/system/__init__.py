@@ -1,28 +1,6 @@
 from .optimizers import make_optimizer
-from .audio_litmodule import AudioLightningModule
-from .audio_litmodule_att2 import AudioLightningModuleAtt2
-from .audio_litmodule_solo import AudioLightningModuleSolo
-from .audio_litmodule_sir1 import AudioLightningModuleSir1
-from .audio_litmodule_unison1 import AudioLightningModuleUnison1
-from .audio_litmodule_unison2 import AudioLightningModuleUnison2
-from .audio_litmodule_unison3 import AudioLightningModuleUnison3
-from .audio_litmodule_dynamic import AudioLightningModuleDynamic1
-from .audio_litmodule_unison4 import AudioLightningModuleUnison4
-from .audio_litmodule_moe1 import AudioLightningModuleMoe1
-from .audio_litmodule_moe2 import AudioLightningModuleMoe2
-from .audio_litmodule_moe3 import AudioLightningModuleMoe3
-from .audio_litmodule_moe4 import AudioLightningModuleMoe4
-from .audio_litmodule_harmony1 import AudioLightningModuleHarmony1
-from .audio_litmodule_mag import AudioLightningModuleMag1
-from .audio_litmodule_penalty0 import AudioLightningModulePenalty0
-from .audio_litmodule_penalty1 import AudioLightningModulePenalty1
-from .audio_litmodule_penalty3 import AudioLightningModulePenalty3
-from .audio_litmodule_penalty4 import AudioLightningModulePenalty4
-from .audio_litmodule_penalty5 import AudioLightningModulePenalty5
-from .audio_litmodule_phase1 import AudioLightningModulePhase1
-from .audio_litmodule_all1 import AudioLightningModuleAll1
 from .audio_litmodule_all2 import AudioLightningModuleAll2
-from .audio_litmodule_all3 import AudioLightningModuleAll3
+
 __all__ = [
     "make_optimizer",
     "DPTNetScheduler"

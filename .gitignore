@@ -89,7 +89,7 @@ models/            # (모델 소스코드 폴더면 빼세요)
 *.npy
 *.pt
 *.pth
-*.ckpt
+
 *.onnx
 
 # ---------- 캐시 ----------
@@ -113,7 +113,7 @@ pretrained_models/
 assets/
 result/
 Experiments/
-
+duet_svs/
 # ---------- 선택(필요 시 제외 해제) ----------
 # figures/         # 논문용 그림 산출물은 종종 추적함
 # reports/         # 보고서/논문 빌드 산출물 폴더
