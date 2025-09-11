@@ -8,8 +8,20 @@
 ## Quickstart
 
 ### 1) Data Preprocessing
+We use a total of 400 hours of singing datasets for training.
+Download the dataset and follow the preprocessing steps in [MedleyVox preprocessing steps](https://github.com/jeonchangbin49/MedleyVox/tree/main/svs/preprocess).  
+
+Children’s song dataset (CSD) [link](https://zenodo.org/record/4785016#.Y2-r2y_kFqs), 4.9 hours. 
+NUS [link](https://drive.google.com/drive/folders/12pP9uUl0HTVANU3IPLnumTJiRjPtVUMx), 1.9 hours. 
+VocalSet [link](https://zenodo.org/record/1193957#.Y2-tmC_kFqs), 8.8 hours.
+Jsut-song [link](https://sites.google.com/site/shinnosuketakamichi/publication/jsut-song), 0.4 hours. 
+Jvs_music [link](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_music), 2.3 hours. 
+Musdb-hq (train subset) [link](https://sigsep.github.io/datasets/musdb.html), 2.0 hours. Single singing regions extracted using musdb-lyrics extension [link](https://zenodo.org/record/3989267#.Y2-wBOzP1qs).
+OpenSinger [link](https://github.com/Multi-Singer/Multi-Singer.github.io), 51.9 hours. Provides labels for different songs of the same singer.
+K_multisinger [link](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=465), 169.6 hours. Provides labels for same song of different singers and different songs of same singer.
+K_multitimbre [link](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=473), 150.8 hours. Provides labels for same song of different singers and different songs of same singer.
 Follow the [MedleyVox preprocessing steps](https://github.com/jeonchangbin49/MedleyVox/tree/main/svs/preprocess).  
-Make sure the preprocessed data paths match those referenced in `configs/unmixx.yml`.
+
 
 ---
 
