@@ -1,24 +1,7 @@
 # UNMIXX: Untangling Highly Correlated Vocals in Multiple Singing Voice Separation
 
-**UNMIXX** is a novel framework for **multiple singing voice separation (MSVS)**.  
-While MSVS is related to speech separation, it poses unique challenges:
-- **Data scarcity** in multi-singer recordings  
-- **Highly correlated** nature of singing voices  
+**UNMIXX** a novel framework for the multiple singing voices separation (MSVS). While similar to speech separation, MSVS presents unique challenges, namely data scarcity and highly correlated nature of singing voice. To address these issues, we propose  three key components: (1) a musically informed mixing strategy to construct highly correlated training mixtures, (2) a reverse attention that drives the two outputs apart using cross attention and (3) a magnitude penalty loss penalizing energy erroneously assigned to the other output. Experiments show that UNMIXX achieves substantial improvements, with more than ~2.2 dB SDRi gains on MedleyVox evaluation set over prior method. Audio samples are available on our [demo page](https://unmixx.github.io/).
 
-To address these, UNMIXX introduces three key components:
-- **Musically informed mixing** – constructs training mixtures with stronger temporal and harmonic alignment  
-- **Reverse attention** – pushes the two outputs apart via cross attention, reducing residual leakage  
-- **Magnitude-penalty loss** – penalizes spectrogram energy erroneously assigned to the other output  
-
----
-
-### 📊 Results
-- Achieves **~+2.2 dB SDRi gains** on the MedleyVox evaluation set compared with prior methods.  
-
----
-
-### 🎧 Demo
-🔊 [Audio samples](https://unmixx.github.io/)
 
 ---
 
