@@ -31,10 +31,6 @@ CUDA_VISIBLE_DEVICES=0,1 \
 python audio_train.py --conf_dir configs/unmixx.yml
 ```
 
-**Tips**
-- Adjust `batch_size` / `num_workers` in the config to fit your GPU memory.  
-- To resume training, set `resume_from_checkpoint` in your config (if supported).
-
 ---
 
 ### 3) Inference
