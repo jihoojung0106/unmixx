@@ -25,9 +25,9 @@ Download the datasets and follow the preprocessing steps in [MedleyVox preproces
 
 
 ### 2) Training
-Example: training with 2 GPUs
+
 ```bash
-CUDA_VISIBLE_DEVICES=0,1 \
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 python audio_train.py --conf_dir configs/unmixx.yml
 ```
 
