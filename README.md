@@ -43,3 +43,8 @@ python inference.py \
 ```
 
 Outputs will be saved to `separated_audio/`.
+
+---
+#### Implementation references:
+- TIGER: https://github.com/JusperLee/TIGER
+- MedleyVox: https://github.com/jeonchangbin49/MedleyVox/tree/main
